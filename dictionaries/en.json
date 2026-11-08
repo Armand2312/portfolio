@@ -1,0 +1,13 @@
+{
+    "hero": {
+        "greeting": "Hello, I'm Armand",
+        "description": "I'm a software engineer who develops modern web applications. I work with technologies like React, Node.js, and Python.",
+        "viewProject": "View My Projects"
+    },
+    "nav": {
+        "projects": "Projects",
+        "experience": "Experience",
+        "about": "About",
+        "contact": "Contact"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "hero": {
+        "greeting": "Merhaba, ben Armand",
+        "description": "Modern web uygulamaları geliştiren bir yazılım mühendisiyim. React, Node.js ve Python gibi teknolojilerle çalışıyorum.",
+        "viewProject": "Projelerimi Görüntüle"
+    },
+    "nav": {
+        "projects": "Projeler",
+        "experience": "Deneyim",
+        "about": "Hakkımda",
+        "contact": "İletişim"
+    }
+}
