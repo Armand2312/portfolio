@@ -9,5 +9,21 @@
         "experience": "Deneyim",
         "about": "Hakkımda",
         "contact": "İletişim"
+    },
+    "projects": {
+        "featureWork": "Öne Çıkan Çalışmalar",
+        "title": "Projelerim",
+        "viewCode": "Kodu Görüntüle",
+        "liveDemo": "Canlı Demo",
+        "items": {
+            "ecommerce-admin": {
+                "title": "E-Ticaret Yönetim Paneli",
+                "description": "Bir e-ticaret platformunu yönetmek için geliştirilmiş yönetim paneli. Ürün yönetimi, sipariş takibi ve kullanıcı analitiği gibi özellikler sunar. React ve Next.js kullanılarak geliştirilmiş ve RESTful API ile entegre edilmiştir."
+            },
+            "ecommerce-storefront": {
+                "title": "E-Ticaret Mağazası",
+                "description": "React, Node.js ve MongoDB kullanılarak geliştirilmiş kapsamlı bir e-ticaret uygulaması. Ürün listeleme, alışveriş sepeti ve Stripe üzerinden ödeme işlemleri gibi özellikler içerir."
+            }
+        }
     }
 }

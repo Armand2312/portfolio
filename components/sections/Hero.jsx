@@ -1,6 +1,6 @@
 export default function Hero({ dictionary }) {
     return (
-        <section className="hero">
+        <section id="hero" className="hero">
             <h1 className="text-3xl font-bold underline">
                 {dictionary.hero.greeting}
             </h1>
