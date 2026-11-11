@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "greeting": "Hello, I'm Armand",
+        "description": "I'm a software engineer who develops modern web applications. I work with technologies like React, Node.js, and Python.",
+        "viewProject": "View My Projects"
+    },
+    "nav": {
+        "projects": "Projects",
+        "experience": "Experience",
+        "about": "About",
+        "contact": "Contact"
+    },
+    "projects": {
+        "featuredWork": "Featured Work",
+        "title": "Projects",
+        "viewCode": "View Code",
+        "liveDemo": "Live Demo",
+        "items": {
+            "ecommerce-admin": {
+                "title": "E-commerce Admin Dashboard",
+                "description": "An admin dashboard for managing an e-commerce platform. It provides features for product management, order tracking, and user analytics. Built with React and Next.js. Integrated with a RESTful API."
+            },
+            "ecommerce-storefront": {
+                "title": "E-commerce Storefront",
+                "description": "A full-featured e-commerce storefront built with React, Node.js, and MongoDB. It includes product listings, shopping cart functionality, and payment processing using Stripe."
+            }
+        }
+    }
+}

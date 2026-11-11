@@ -8,7 +8,15 @@ const nextConfig = {
         as: "*.css",
       },
     },
-  },
+  }, async redirects() {
+    return [
+      {
+        source: "/",
+        destination: "/en",
+        permanent: false,
+      }
+    ];
+  }
 };
 
 export default nextConfig;
