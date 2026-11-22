@@ -25,5 +25,39 @@
                 "description": "A full-featured e-commerce storefront built with React, Node.js, and MongoDB. It includes product listings, shopping cart functionality, and payment processing using Stripe."
             }
         }
+    },
+    "experiences": {
+        "title": "My journey",
+        "experience": "Experience",
+        "present": "Present",
+        "items": {
+            "vipersoft": {
+                "title": "ViperSoft",
+                "job": "Frontend Web Developer",
+                "description": "Worked as a part-time Frontend Web Developer in a remote team, developing and maintaining responsive web applications using React, Next.js, and modern JavaScript technologies. Contributed to frontend feature development, integrated APIs, and collaborated with team members to improve application functionality and user experience."
+            },
+            "military": {
+                "title": "Military Service",
+                "job": "Information Systems Network Operator",
+                "description": "Served as an Information Systems Network Operator, working with Oracle databases and SQL/PL/SQL in a secure military environment. Responsible for database operations, including data retrieval, manipulation, and validation. Worked with existing database systems to maintain data accuracy, integrity, and consistency."
+            },
+            "assistloft": {
+                "title": "Assistloft",
+                "job": "Software Developer",
+                "description": "Contributed to the development of a social media management platform, working across frontend and backend functionality using React, Python, and Django. Implemented API integrations, developed features for social media account management and messaging, and worked with AWS services, PostgreSQL, and background task processing. Collaborated with the development team to implement new features, troubleshoot issues, and improve application reliability."
+            }
+        }
+    },
+    "education": {
+    "title": "Academic Foundation",
+    "label": "Education",
+    "items": {
+        "surrey": {
+            "title": "University of Surrey",
+            "degree": "BSc Computer Science",
+            "grade": "First Class Honours",
+            "description": "Graduated with First Class Honours in Computer Science. Developed a strong foundation in software engineering, algorithms, data structures, databases, and artificial intelligence. For my final-year project, I developed a real-time American Sign Language alphabet recognition system using computer vision and machine learning."
+        }
     }
+}
 }

@@ -25,5 +25,39 @@
                 "description": "React, Node.js ve MongoDB kullanılarak geliştirilmiş kapsamlı bir e-ticaret uygulaması. Ürün listeleme, alışveriş sepeti ve Stripe üzerinden ödeme işlemleri gibi özellikler içerir."
             }
         }
+    },
+    "experiences": {
+        "title": "Kariyer Yolculuğum",
+        "experience": "İş Deneyimi",
+        "present": "Devam Ediyor",
+        "items": {
+            "vipersoft": {
+                "title": "ViperSoft",
+                "job": "Frontend Web Geliştirici",
+                "description": "Uzaktan çalışan bir ekibin parçası olarak yarı zamanlı Frontend Web Geliştirici pozisyonunda görev aldım. React, Next.js ve modern JavaScript teknolojilerini kullanarak duyarlı web arayüzlerinin geliştirilmesi ve bakımında çalıştım. Yeni özelliklerin geliştirilmesine, API entegrasyonlarına ve uygulamaların işlevselliğinin ve kullanıcı deneyiminin iyileştirilmesine katkıda bulundum."
+            },
+            "military": {
+                "title": "Askerlik Hizmeti",
+                "job": "Bilgi Sistem Ağ İşletmeni",
+                "description": "Askerlik hizmetim süresince Bilgi Sistemleri Ağ Operatörü olarak görev aldım. Güvenli bir askeri ortamda Oracle veritabanları ve SQL/PL/SQL teknolojileriyle çalıştım. Veri sorgulama, düzenleme ve doğrulama işlemlerini gerçekleştirerek mevcut veritabanı sistemlerindeki verilerin doğruluğunun, bütünlüğünün ve tutarlılığının korunmasına katkıda bulundum."
+            },
+            "assistloft": {
+                "title": "Assistloft",
+                "job": "Yazılım Geliştirici",
+                "description": "React, Python ve Django teknolojilerini kullanarak bir sosyal medya yönetim platformunun frontend ve backend geliştirme süreçlerine katkıda bulundum. API entegrasyonları gerçekleştirdim, sosyal medya hesap yönetimi ve mesajlaşma özellikleri üzerinde çalıştım. AWS servisleri, PostgreSQL ve arka plan görev işleme sistemleriyle deneyim kazandım. Yeni özelliklerin geliştirilmesi, hataların giderilmesi ve uygulamanın güvenilirliğinin artırılması için geliştirme ekibiyle birlikte çalıştım."
+            }
+        }
+    },
+    "education": {
+    "title": "Akademik Temellerim",
+    "label": "Eğitim",
+    "items": {
+        "surrey": {
+            "title": "Surrey Üniversitesi",
+            "degree": "Bilgisayar Bilimleri Lisans",
+            "grade": "Birinci Sınıf Onur Derecesi (First Class Honours)",
+            "description": "Bilgisayar Bilimleri bölümünden Birinci Sınıf Onur Derecesi ile mezun oldum. Yazılım mühendisliği, algoritmalar, veri yapıları, veritabanları ve yapay zekâ alanlarında güçlü bir temel edindim. Tez projem kapsamında bilgisayarlı görü ve makine öğrenmesi kullanarak gerçek zamanlı Amerikan İşaret Dili alfabesi tanıma sistemi geliştirdim."
+        }
     }
+}
 }
