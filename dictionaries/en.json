@@ -11,6 +11,7 @@
     "nav": {
         "projects": "Projects",
         "experience": "Experience",
+        "education": "Education",
         "about": "About",
         "contact": "Contact"
     },
@@ -65,8 +66,23 @@
         }
     },
     "about": {
-        "label": "Ben kimim",
+        "label": "Who am I",
         "title": "About me",
-        "description": "I'm a software developer with a background in Computer Science and a strong interest in building modern web applications. I enjoy turning ideas into functional products, solving technical problems, and continuously improving my skills. My experience has primarily been in frontend development with React and Next.js, but I've also worked with backend technologies, databases, and API integrations. I enjoy understanding how different parts of an application work together, rather than focusing solely on the interface. I&apos;m particularly interested in full-stack development and building applications that solve real-world problems. I'm always looking for opportunities to learn from experienced developers, explore new technologies, and contribute to meaningful projects."
+        "description": "I'm a software developer with a background in Computer Science and a strong interest in building modern web applications. I enjoy turning ideas into functional products, solving technical problems, and continuously improving my skills. My experience has primarily been in frontend development with React and Next.js, but I've also worked with backend technologies, databases, and API integrations. I enjoy understanding how different parts of an application work together, rather than focusing solely on the interface. I'm particularly interested in full-stack development and building applications that solve real-world problems. I'm always looking for opportunities to learn from experienced developers, explore new technologies, and contribute to meaningful projects."
+    },
+    "contact": {
+        "label": "Contact",
+        "title": "Let's Get in Touch",
+        "description": "Have a project in mind, a job opportunity, or just want to say hi? I'm always open to new connections and interesting conversations.",
+        "email": "Email",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+    },
+    "footer": {
+        "role": "Software Developer",
+        "rights": "All rights reserved.",
+        "quickLinks": "Quick Links",
+        "socials": "Socials",
+        "description": "Software developer focused on building modern and user-friendly web applications."
     }
 }

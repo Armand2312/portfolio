@@ -4,6 +4,7 @@ import Projects from "@/components/sections/Projects";
 import Experience from "@/components/sections/Experience";
 import Education from "@/components/sections/Education";
 import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact";
 
 export default async function Home({params}) {
   const {locale} = await params;
@@ -16,6 +17,7 @@ export default async function Home({params}) {
       <Experience dictionary={dictionary} />
       <Education dictionary={dictionary} />
       <About dictionary={dictionary} /> 
+      <Contact dictionary={dictionary} />
     </main>
   );
 }

@@ -11,6 +11,7 @@
     "nav": {
         "projects": "Projeler",
         "experience": "Deneyim",
+        "education": "Eğitim",
         "about": "Hakkımda",
         "contact": "İletişim"
     },
@@ -65,8 +66,23 @@
         }
     },
     "about": {
-        "label": "Who am I",
+        "label": "Ben kimim",
         "title": "Hakkımda",
         "description": "Bilgisayar Bilimleri geçmişine sahip, modern web uygulamaları geliştirmeye ilgi duyan bir yazılım geliştiriciyim. Fikirleri çalışan ürünlere dönüştürmekten, teknik problemleri çözmekten ve kendimi sürekli geliştirmekten keyif alıyorum. Deneyimim ağırlıklı olarak React ve Next.js ile frontend geliştirme üzerine olsa da backend teknolojileri, veritabanları ve API entegrasyonlarıyla da çalıştım. Yalnızca kullanıcı arayüzüne odaklanmak yerine, bir uygulamanın farklı bileşenlerinin nasıl birlikte çalıştığını anlamayı önemsiyorum. Özellikle full-stack geliştirme ve gerçek dünyadaki problemlere çözüm üreten uygulamalar geliştirmekle ilgileniyorum. Deneyimli geliştiricilerden öğrenebileceğim, yeni teknolojiler keşfedebileceğim ve anlamlı projelere katkıda bulunabileceğim fırsatlara açığım."
+    },
+    "contact": {
+        "label": "İletişim",
+        "title": "İletişime Geçelim",
+        "description": "Aklınızda bir proje mi var, bir iş fırsatı mı sunmak istiyorsunuz, yoksa sadece merhaba mı demek istediniz? Yeni insanlarla tanışmaya ve ilgi çekici sohbetlere her zaman açığım.",
+        "email": "E-posta",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+    },
+    "footer": {
+        "role": "Yazılım Geliştirici",
+        "rights": "Tüm hakları saklıdır.",
+        "quickLinks": "Linkler",
+        "socials": "Sosyaller",
+        "description": "Modern ve kullanıcı dostu web uygulamaları geliştirmeye odaklanan bir yazılım geliştirici."
     }
 }
