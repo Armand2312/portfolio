@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import NavBar from "@/components/layout/NavBar";
-import {getDictionary} from "@/lib/dictionaries";
-import { redirect } from "next/navigation";
+import { getDictionary } from "@/lib/dictionaries";
+import Footer from "@/components/layout/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,16 +14,18 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-/* Supported Languages */
-export const supportedLocales = ["en", "tr"];
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale);
+
+  return {
+    title: dictionary.browser.title,
+    description: dictionary.browser.description,
+  };
+}
 
 export default async function RootLayout({ children, params }) {
-  const {locale} = await params;
-
-  /* if (!supportedLocales.includes(locale)) {
-    redirect("/en");
-  } */
-  
+  const { locale } = await params;
   const dictionary = await getDictionary(locale);
 
   return (
@@ -32,8 +34,9 @@ export default async function RootLayout({ children, params }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-      <NavBar locale={locale} dictionary={dictionary} />
+        <NavBar locale={locale} dictionary={dictionary} />
         {children}
+        <Footer locale={locale} dictionary={dictionary} />
       </body>
     </html>
   );
