@@ -1,26 +1,112 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --background: #0b1d35;
+  --surface: #102640;
+  --surface-raised: #16324f;
+  --foreground: #edf0fa;
+  --secondary: #b9c9df;
+  --muted: #91a5bf;
+  --accent: #20adff;
+  --accent-hover: #64c7ff;
+  --border: #254966;
+  --divider: #1a354e;
+
+  --container-width: 72rem;
+  --container-gutter: clamp(1.25rem, 4vw, 3rem);
+  --section-spacing: clamp(3rem, 6vw, 6rem);
+  --content-gap: clamp(1.25rem, 3vw, 2rem);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-border: var(--border);
+  --color-divider: var(--divider);
+  --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --spacing-section: var(--section-spacing);
+  --spacing-content: var(--content-gap);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-x: clip;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    min-width: 0;
+    overflow-x: clip;
+    background-color: var(--background);
+    background-image:
+      radial-gradient(ellipse 40rem 30rem at 100% 0%, rgb(15 100 180 / 12%), transparent 75%),
+      radial-gradient(ellipse 30rem 40rem at 0% 65%, rgb(15 85 170 / 9%), transparent 75%);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+
+  /* Defaults stay in the base layer so component utilities can override them. */
+  h1, h2 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: clamp(2.25rem, 1.5rem + 3vw, 3.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.875rem, 1.5rem + 1.5vw, 2.75rem);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+  }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--background);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Opt-in conventions for later section work; no section layout is changed here. */
+@utility portfolio-container {
+  width: 100%;
+  max-width: calc(var(--container-width) + var(--container-gutter) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-gutter);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
