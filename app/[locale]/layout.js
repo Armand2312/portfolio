@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import NavBar from "@/components/layout/NavBar";
 import {getDictionary} from "@/lib/dictionaries";
-import { redirect } from "next/navigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +12,16 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  const dictionary = await getDictionary(locale);
+
+  return {
+    title: dictionary.browser.title,
+    description: dictionary.browser.description,
+  };
+}
 
 /* Supported Languages */
 export const supportedLocales = ["en", "tr"];

@@ -1,4 +1,8 @@
 {
+    "browser": {
+        "title": "Armand Oral | Yazılım Mühendisi",
+        "description": "Projelerimi, deneyimimi, ve yeteneklerimi gösteren kişisel portföyüm."
+    },
     "hero": {
         "greeting": "Merhaba, ben Armand",
         "description": "Modern web uygulamaları geliştiren bir yazılım mühendisiyim. React, Node.js ve Python gibi teknolojilerle çalışıyorum.",
@@ -11,7 +15,7 @@
         "contact": "İletişim"
     },
     "projects": {
-        "featureWork": "Öne Çıkan Çalışmalar",
+        "label": "Öne Çıkan Çalışmalar",
         "title": "Projelerim",
         "viewCode": "Kodu Görüntüle",
         "liveDemo": "Canlı Demo",
@@ -27,8 +31,8 @@
         }
     },
     "experiences": {
-        "title": "Kariyer Yolculuğum",
-        "experience": "İş Deneyimi",
+        "label": "Kariyer Yolculuğum",
+        "title": "İş Deneyimi",
         "present": "Devam Ediyor",
         "items": {
             "vipersoft": {
@@ -49,15 +53,20 @@
         }
     },
     "education": {
-    "title": "Akademik Temellerim",
-    "label": "Eğitim",
-    "items": {
-        "surrey": {
-            "title": "Surrey Üniversitesi",
-            "degree": "Bilgisayar Bilimleri Lisans",
-            "grade": "Birinci Sınıf Onur Derecesi (First Class Honours)",
-            "description": "Bilgisayar Bilimleri bölümünden Birinci Sınıf Onur Derecesi ile mezun oldum. Yazılım mühendisliği, algoritmalar, veri yapıları, veritabanları ve yapay zekâ alanlarında güçlü bir temel edindim. Tez projem kapsamında bilgisayarlı görü ve makine öğrenmesi kullanarak gerçek zamanlı Amerikan İşaret Dili alfabesi tanıma sistemi geliştirdim."
+        "label": "Akademik Temellerim",
+        "title": "Eğitim",
+        "items": {
+            "surrey": {
+                "title": "Surrey Üniversitesi",
+                "degree": "Bilgisayar Bilimleri Lisans",
+                "grade": "Birinci Sınıf Onur Derecesi (First Class Honours)",
+                "description": "Bilgisayar Bilimleri bölümünden Birinci Sınıf Onur Derecesi ile mezun oldum. Yazılım mühendisliği, algoritmalar, veri yapıları, veritabanları ve yapay zekâ alanlarında güçlü bir temel edindim. Tez projem kapsamında bilgisayarlı görü ve makine öğrenmesi kullanarak gerçek zamanlı Amerikan İşaret Dili alfabesi tanıma sistemi geliştirdim."
+            }
         }
+    },
+    "about": {
+        "label": "Who am I",
+        "title": "Hakkımda",
+        "description": "Bilgisayar Bilimleri geçmişine sahip, modern web uygulamaları geliştirmeye ilgi duyan bir yazılım geliştiriciyim. Fikirleri çalışan ürünlere dönüştürmekten, teknik problemleri çözmekten ve kendimi sürekli geliştirmekten keyif alıyorum. Deneyimim ağırlıklı olarak React ve Next.js ile frontend geliştirme üzerine olsa da backend teknolojileri, veritabanları ve API entegrasyonlarıyla da çalıştım. Yalnızca kullanıcı arayüzüne odaklanmak yerine, bir uygulamanın farklı bileşenlerinin nasıl birlikte çalıştığını anlamayı önemsiyorum. Özellikle full-stack geliştirme ve gerçek dünyadaki problemlere çözüm üreten uygulamalar geliştirmekle ilgileniyorum. Deneyimli geliştiricilerden öğrenebileceğim, yeni teknolojiler keşfedebileceğim ve anlamlı projelere katkıda bulunabileceğim fırsatlara açığım."
     }
-}
 }

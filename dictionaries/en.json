@@ -1,4 +1,8 @@
 {
+    "browser": {
+        "title": "Armand Oral | Software Developer",
+        "description": "Personal portfolio showcasing my projects, experience, and skills."
+    },
     "hero": {
         "greeting": "Hello, I'm Armand",
         "description": "I'm a software engineer who develops modern web applications. I work with technologies like React, Node.js, and Python.",
@@ -11,7 +15,7 @@
         "contact": "Contact"
     },
     "projects": {
-        "featuredWork": "Featured Work",
+        "label": "Featured Work",
         "title": "Projects",
         "viewCode": "View Code",
         "liveDemo": "Live Demo",
@@ -27,8 +31,8 @@
         }
     },
     "experiences": {
-        "title": "My journey",
-        "experience": "Experience",
+        "label": "My journey",
+        "title": "Experience",
         "present": "Present",
         "items": {
             "vipersoft": {
@@ -49,15 +53,20 @@
         }
     },
     "education": {
-    "title": "Academic Foundation",
-    "label": "Education",
-    "items": {
-        "surrey": {
-            "title": "University of Surrey",
-            "degree": "BSc Computer Science",
-            "grade": "First Class Honours",
-            "description": "Graduated with First Class Honours in Computer Science. Developed a strong foundation in software engineering, algorithms, data structures, databases, and artificial intelligence. For my final-year project, I developed a real-time American Sign Language alphabet recognition system using computer vision and machine learning."
+        "label": "Academic Foundation",
+        "title": "Education",
+        "items": {
+            "surrey": {
+                "title": "University of Surrey",
+                "degree": "BSc Computer Science",
+                "grade": "First Class Honours",
+                "description": "Graduated with First Class Honours in Computer Science. Developed a strong foundation in software engineering, algorithms, data structures, databases, and artificial intelligence. For my final-year project, I developed a real-time American Sign Language alphabet recognition system using computer vision and machine learning."
+            }
         }
+    },
+    "about": {
+        "label": "Ben kimim",
+        "title": "About me",
+        "description": "I'm a software developer with a background in Computer Science and a strong interest in building modern web applications. I enjoy turning ideas into functional products, solving technical problems, and continuously improving my skills. My experience has primarily been in frontend development with React and Next.js, but I've also worked with backend technologies, databases, and API integrations. I enjoy understanding how different parts of an application work together, rather than focusing solely on the interface. I&apos;m particularly interested in full-stack development and building applications that solve real-world problems. I'm always looking for opportunities to learn from experienced developers, explore new technologies, and contribute to meaningful projects."
     }
-}
 }
