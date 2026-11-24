@@ -5,8 +5,24 @@
     },
     "hero": {
         "greeting": "Merhaba, ben Armand",
-        "description": "Modern web uygulamaları geliştiren bir yazılım mühendisiyim. React, Node.js ve Python gibi teknolojilerle çalışıyorum.",
-        "viewProject": "Projelerimi Görüntüle"
+        "description": "Ben Armand. React, Next.js ve ilgili teknolojilerle modern, duyarlı web uygulamaları geliştiren bir yazılım geliştiriciyim. Fikirleri kullanışlı, kullanıcı dostu uygulamalara dönüştürmekten keyif alıyorum.",
+        "viewProject": "Projelerimi Görüntüle",
+        "availability": "Yeni fırsatlara açığım",
+        "developerLabel": "Yazılım geliştirici · React / Next.js",
+        "headline": "Modern web uygulamaları geliştirirken",
+        "headlineAccent": "kullanılabilirliğe ve güvenilirliğe",
+        "headlineEnding": " odaklanıyorum.",
+        "contact": "İletişime geç",
+        "scroll": "Keşfetmek için kaydır",
+        "focusTitle": "Odak alanları",
+        "focusAreas": [
+            "Modern, duyarlı web uygulamaları",
+            "Sade ve erişilebilir kullanıcı arayüzleri ve deneyimleri",
+            "E-ticaret ve pazaryeri platformları",
+            "Kimlik doğrulama ve güvenli backend entegrasyonu",
+            "Performans ve ölçeklenebilirlik"
+        ],
+        "stackTitle": "Kullandığım teknolojiler"
     },
     "nav": {
         "projects": "Projeler",

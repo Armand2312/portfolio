@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useId, useRef, useState } from "react";
+import { flushSync } from "react-dom";
 
 export default function NavBar({ locale, dictionary }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +13,11 @@ export default function NavBar({ locale, dictionary }) {
 
     function closeMenu() {
         setIsOpen(false);
+    }
+
+    function handleSectionClick() {
+        // Collapse the sticky header before the browser calculates the anchor position.
+        flushSync(closeMenu);
     }
 
     function handleKeyDown(event) {
@@ -38,9 +44,9 @@ export default function NavBar({ locale, dictionary }) {
                 <ul id={menuId} className={`${isOpen ? "flex" : "hidden"} order-last w-full flex-col gap-1 border-t border-divider py-3 lg:order-none lg:flex lg:w-auto lg:flex-row lg:gap-6 lg:border-0 lg:py-0`}>
                     {sections.map((section) => (
                         <li key={section}>
-                            <Link href={`/${locale}#${section}`} onClick={closeMenu} className="flex min-h-11 items-center rounded-md px-3 text-sm text-secondary motion-safe:transition-colors hover:bg-surface hover:text-accent lg:px-1 lg:hover:bg-transparent">
+                            <a href={`/${locale}#${section}`} onClick={handleSectionClick} className="flex min-h-11 items-center rounded-md px-3 text-sm text-secondary motion-safe:transition-colors hover:bg-surface hover:text-accent lg:px-1 lg:hover:bg-transparent">
                                 {dictionary.nav[section]}
-                            </Link>
+                            </a>
                         </li>
                     ))}
                 </ul>

@@ -5,8 +5,24 @@
     },
     "hero": {
         "greeting": "Hello, I'm Armand",
-        "description": "I'm a software engineer who develops modern web applications. I work with technologies like React, Node.js, and Python.",
-        "viewProject": "View My Projects"
+        "description": "I'm Armand, a software developer building modern, responsive web applications with React, Next.js and related technologies. I enjoy turning ideas into practical, user-friendly applications.",
+        "viewProject": "View My Projects",
+        "availability": "Available for opportunities",
+        "developerLabel": "Software developer · React / Next.js",
+        "headline": "Building modern web applications with a focus on",
+        "headlineAccent": "usability and reliability",
+        "headlineEnding": ".",
+        "contact": "Contact me",
+        "scroll": "Scroll to explore",
+        "focusTitle": "Focus areas",
+        "focusAreas": [
+            "Modern, responsive web applications",
+            "Clean and accessible UI/UX",
+            "E-commerce and marketplace platforms",
+            "Authentication and secure backend integration",
+            "Performance and scalability"
+        ],
+        "stackTitle": "Tech stack"
     },
     "nav": {
         "projects": "Projects",
