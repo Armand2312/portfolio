@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { contactLinks } from "@/data/contact";
+import { externalLinkProps } from "@/lib/links";
 
 export default function Footer({ locale, dictionary }) {
     const footerContent = dictionary.footer;
@@ -24,17 +25,11 @@ export default function Footer({ locale, dictionary }) {
             </nav>
             <div className="flex flex-col">
                 <span>{footerContent.socials}</span>
-                {contactLinks.map((contact) => {
-                    const isExternal = contact.id !== "email";
-                    return (
-                        <a key={contact.id}
-                            href={contact.href}
-                            target={isExternal ? "_blank" : undefined}
-                            rel={isExternal ? "noopener noreferrer" : undefined}>
-                            {contactContent[contact.id]}
-                        </a>
-                    )
-                })}
+                {contactLinks.map((contact) => (
+                    <a key={contact.id} href={contact.href} {...externalLinkProps(contact.href)}>
+                        {contactContent[contact.id]}
+                    </a>
+                ))}
             </div>
 
             <p>© {year} Armand Oral. {footerContent.rights}</p>
