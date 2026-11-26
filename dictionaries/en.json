@@ -5,15 +5,35 @@
     },
     "hero": {
         "greeting": "Hello, I'm Armand",
-        "description": "I'm a software engineer who develops modern web applications. I work with technologies like React, Node.js, and Python.",
-        "viewProject": "View My Projects"
+        "description": "I'm Armand, a software developer building modern, responsive web applications with React, Next.js and related technologies. I enjoy turning ideas into practical, user-friendly applications.",
+        "viewProject": "View My Projects",
+        "availability": "Available for opportunities",
+        "developerLabel": "Software developer · React / Next.js",
+        "headline": "Building modern web applications with a focus on",
+        "headlineAccent": "usability and reliability",
+        "headlineEnding": ".",
+        "contact": "Contact me",
+        "scroll": "Scroll to explore",
+        "focusTitle": "Focus areas",
+        "focusAreas": [
+            "Modern, responsive web applications",
+            "Clean and accessible UI/UX",
+            "E-commerce and marketplace platforms",
+            "Authentication and secure backend integration",
+            "Performance and scalability"
+        ],
+        "stackTitle": "Tech stack"
     },
     "nav": {
         "projects": "Projects",
         "experience": "Experience",
         "education": "Education",
         "about": "About",
-        "contact": "Contact"
+        "contact": "Contact",
+        "mainNavigation": "Main navigation",
+        "languageSelection": "Language selection",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu"
     },
     "projects": {
         "label": "Featured Work",
@@ -49,7 +69,7 @@
             "assistloft": {
                 "title": "Assistloft",
                 "job": "Software Developer",
-                "description": "Contributed to the development of a social media management platform, working across frontend and backend functionality using React, Python, and Django. Implemented API integrations, developed features for social media account management and messaging, and worked with AWS services, PostgreSQL, and background task processing. Collaborated with the development team to implement new features, troubleshoot issues, and improve application reliability."
+                "description": "Contributing to the development of a social media management platform, working across frontend and backend functionality using React, Python, and Django. Implementing API integrations, developing features for social media account management and messaging, and working with AWS services, PostgreSQL, and background task processing. Collaborating with the development team to implement new features, troubleshoot issues, and improve application reliability."
             }
         }
     },

@@ -1,9 +1,10 @@
+// Ordered newest first: this is the order the Experience section renders.
 export const experiences = [
     {
-        id: "vipersoft",
-        startDate: "12/2023",
-        endDate: "08/2024",
-        technologies: ["React", "Next.js", "Tailwind CSS"],
+        id: "assistloft",
+        startDate: "07/2026",
+        endDate: null,
+        technologies: ["React", "Next.js", "Django", "Tailwind CSS"]
     },
     {
         id: "military",
@@ -12,9 +13,9 @@ export const experiences = [
         technologies: ["SQL", "PL/SQL", "Oracle"]
     },
     {
-        id: "assistloft",
-        startDate: "07/2026",
-        endDate: null,
-        technologies: ["React", "Next.js", "Django", "Tailwind CSS"]
+        id: "vipersoft",
+        startDate: "12/2023",
+        endDate: "08/2024",
+        technologies: ["React", "Next.js", "Tailwind CSS"],
     }
-]
+];
