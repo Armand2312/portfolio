@@ -47,7 +47,7 @@
             },
             "ecommerce-storefront": {
                 "title": "E-Ticaret Mağazası",
-                "description": "React, Node.js ve MongoDB kullanılarak geliştirilmiş kapsamlı bir e-ticaret uygulaması. Ürün listeleme, alışveriş sepeti ve Stripe üzerinden ödeme işlemleri gibi özellikler içerir."
+                "description": "Next.js, Node.js ve MongoDB kullanılarak geliştirilmiş kapsamlı bir e-ticaret uygulaması. Ürün listeleme, alışveriş sepeti ve Stripe üzerinden ödeme işlemleri gibi özellikler içerir."
             }
         }
     },

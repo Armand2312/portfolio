@@ -4,7 +4,7 @@ export const experiences = [
         id: "assistloft",
         startDate: "07/2026",
         endDate: null,
-        technologies: ["React", "Next.js", "Django", "Tailwind CSS"]
+        technologies: ["React", "Next.js", "Python", "Django", "PostgreSQL", "AWS", "Tailwind CSS"]
     },
     {
         id: "military",

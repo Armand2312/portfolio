@@ -2,7 +2,7 @@ export const projects = [
     {
         id: "ecommerce-storefront",
         title: "E-commerce Storefront",
-        description: "A full-featured e-commerce storefront built with React, Node.js, and MongoDB. It includes product listings, shopping cart functionality, and payment processing using Stripe.",
+        description: "A full-featured e-commerce storefront built with Next.js, Node.js, and MongoDB. It includes product listings, shopping cart functionality, and payment processing using Stripe.",
         technologies: ["Next.js", "React", "Node.js", "MongoDB", "Tailwind CSS"],
         github: "https://github.com/Armand2312/ecommerce-front",
         liveDemo: "https://ecommerce-front-one-blond.vercel.app/"
