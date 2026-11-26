@@ -1,14 +1,14 @@
 {
     "browser": {
         "title": "Armand Oral | Yazılım Mühendisi",
-        "description": "Projelerimi, deneyimimi, ve yeteneklerimi gösteren kişisel portföyüm."
+        "description": "Projelerimi, deneyimimi ve yeteneklerimi gösteren kişisel portföyüm."
     },
     "hero": {
         "greeting": "Merhaba, ben Armand",
-        "description": "Ben Armand. React, Next.js ve ilgili teknolojilerle modern, duyarlı web uygulamaları geliştiren bir yazılım geliştiriciyim. Fikirleri kullanışlı, kullanıcı dostu uygulamalara dönüştürmekten keyif alıyorum.",
+        "description": "Ben Armand. React, Next.js ve ilgili teknolojilerle modern, duyarlı web uygulamaları geliştiren bir yazılım mühendisiyim. Fikirleri kullanışlı, kullanıcı dostu uygulamalara dönüştürmekten keyif alıyorum.",
         "viewProject": "Projelerimi Görüntüle",
         "availability": "Yeni fırsatlara açığım",
-        "developerLabel": "Yazılım geliştirici · React / Next.js",
+        "developerLabel": "Yazılım mühendisi · React / Next.js",
         "headline": "Modern web uygulamaları geliştirirken",
         "headlineAccent": "kullanılabilirliğe ve güvenilirliğe",
         "headlineEnding": " odaklanıyorum.",
@@ -29,7 +29,11 @@
         "experience": "Deneyim",
         "education": "Eğitim",
         "about": "Hakkımda",
-        "contact": "İletişim"
+        "contact": "İletişim",
+        "mainNavigation": "Ana gezinme",
+        "languageSelection": "Dil seçimi",
+        "openMenu": "Menüyü aç",
+        "closeMenu": "Menüyü kapat"
     },
     "projects": {
         "label": "Öne Çıkan Çalışmalar",
@@ -60,12 +64,12 @@
             "military": {
                 "title": "Askerlik Hizmeti",
                 "job": "Bilgi Sistem Ağ İşletmeni",
-                "description": "Askerlik hizmetim süresince Bilgi Sistemleri Ağ Operatörü olarak görev aldım. Güvenli bir askeri ortamda Oracle veritabanları ve SQL/PL/SQL teknolojileriyle çalıştım. Veri sorgulama, düzenleme ve doğrulama işlemlerini gerçekleştirerek mevcut veritabanı sistemlerindeki verilerin doğruluğunun, bütünlüğünün ve tutarlılığının korunmasına katkıda bulundum."
+                "description": "Askerlik hizmetim süresince Bilgi Sistem Ağ İşletmeni olarak görev aldım. Güvenli bir askeri ortamda Oracle veritabanları ve SQL/PL/SQL teknolojileriyle çalıştım. Veri sorgulama, düzenleme ve doğrulama işlemlerini gerçekleştirerek mevcut veritabanı sistemlerindeki verilerin doğruluğunun, bütünlüğünün ve tutarlılığının korunmasına katkıda bulundum."
             },
             "assistloft": {
                 "title": "Assistloft",
                 "job": "Yazılım Geliştirici",
-                "description": "React, Python ve Django teknolojilerini kullanarak bir sosyal medya yönetim platformunun frontend ve backend geliştirme süreçlerine katkıda bulundum. API entegrasyonları gerçekleştirdim, sosyal medya hesap yönetimi ve mesajlaşma özellikleri üzerinde çalıştım. AWS servisleri, PostgreSQL ve arka plan görev işleme sistemleriyle deneyim kazandım. Yeni özelliklerin geliştirilmesi, hataların giderilmesi ve uygulamanın güvenilirliğinin artırılması için geliştirme ekibiyle birlikte çalıştım."
+                "description": "React, Python ve Django teknolojilerini kullanarak bir sosyal medya yönetim platformunun frontend ve backend geliştirme süreçlerine katkıda bulunuyorum. API entegrasyonları gerçekleştiriyor, sosyal medya hesap yönetimi ve mesajlaşma özellikleri üzerinde çalışıyorum. AWS servisleri, PostgreSQL ve arka plan görev işleme sistemleriyle çalışıyorum. Yeni özelliklerin geliştirilmesi, hataların giderilmesi ve uygulamanın güvenilirliğinin artırılması için geliştirme ekibiyle birlikte çalışıyorum."
             }
         }
     },
@@ -84,7 +88,7 @@
     "about": {
         "label": "Ben kimim",
         "title": "Hakkımda",
-        "description": "Bilgisayar Bilimleri geçmişine sahip, modern web uygulamaları geliştirmeye ilgi duyan bir yazılım geliştiriciyim. Fikirleri çalışan ürünlere dönüştürmekten, teknik problemleri çözmekten ve kendimi sürekli geliştirmekten keyif alıyorum. Deneyimim ağırlıklı olarak React ve Next.js ile frontend geliştirme üzerine olsa da backend teknolojileri, veritabanları ve API entegrasyonlarıyla da çalıştım. Yalnızca kullanıcı arayüzüne odaklanmak yerine, bir uygulamanın farklı bileşenlerinin nasıl birlikte çalıştığını anlamayı önemsiyorum. Özellikle full-stack geliştirme ve gerçek dünyadaki problemlere çözüm üreten uygulamalar geliştirmekle ilgileniyorum. Deneyimli geliştiricilerden öğrenebileceğim, yeni teknolojiler keşfedebileceğim ve anlamlı projelere katkıda bulunabileceğim fırsatlara açığım."
+        "description": "Bilgisayar Bilimleri geçmişine sahip, modern web uygulamaları geliştirmeye ilgi duyan bir yazılım mühendisiyim. Fikirleri çalışan ürünlere dönüştürmekten, teknik problemleri çözmekten ve kendimi sürekli geliştirmekten keyif alıyorum. Deneyimim ağırlıklı olarak React ve Next.js ile frontend geliştirme üzerine olsa da backend teknolojileri, veritabanları ve API entegrasyonlarıyla da çalıştım. Yalnızca kullanıcı arayüzüne odaklanmak yerine, bir uygulamanın farklı bileşenlerinin nasıl birlikte çalıştığını anlamayı önemsiyorum. Özellikle full-stack geliştirme ve gerçek dünyadaki problemlere çözüm üreten uygulamalar geliştirmekle ilgileniyorum. Deneyimli geliştiricilerden öğrenebileceğim, yeni teknolojiler keşfedebileceğim ve anlamlı projelere katkıda bulunabileceğim fırsatlara açığım."
     },
     "contact": {
         "label": "İletişim",
@@ -95,10 +99,10 @@
         "linkedin": "LinkedIn"
     },
     "footer": {
-        "role": "Yazılım Geliştirici",
+        "role": "Yazılım Mühendisi",
         "rights": "Tüm hakları saklıdır.",
         "quickLinks": "Linkler",
         "socials": "Sosyaller",
-        "description": "Modern ve kullanıcı dostu web uygulamaları geliştirmeye odaklanan bir yazılım geliştirici."
+        "description": "Modern ve kullanıcı dostu web uygulamaları geliştirmeye odaklanan bir yazılım mühendisi."
     }
 }
