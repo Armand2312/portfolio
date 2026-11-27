@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Source_Serif_4 } from "next/font/google";
 import "../globals.css";
 import NavBar from "@/components/layout/NavBar";
 import { getDictionary } from "@/lib/dictionaries";
@@ -12,6 +12,13 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin", "latin-ext"],
+});
+
+// Headings serif. The "opsz" axis lets large headings use the font's display cut automatically.
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
+  subsets: ["latin", "latin-ext"],
+  axes: ["opsz"],
 });
 
 export async function generateMetadata({ params }) {
@@ -31,9 +38,9 @@ export default async function RootLayout({ children, params }) {
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${sourceSerif.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-dvh flex flex-col">
         <NavBar locale={locale} dictionary={dictionary} />
         {children}
         <Footer locale={locale} dictionary={dictionary} />

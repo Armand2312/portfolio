@@ -9,7 +9,7 @@ export default function Hero({ dictionary }) {
     const content = dictionary.hero;
 
     return (
-        <section id="hero" aria-labelledby="hero-heading" className="hero relative isolate overflow-hidden border-b border-divider bg-[#031321]">
+        <section id="hero" aria-labelledby="hero-heading" className="hero relative isolate overflow-hidden border-b border-divider">
             <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_90%_15%,rgb(0_118_220_/_0.12),transparent_45%)]" />
             <div aria-hidden="true" className="pointer-events-none absolute -left-28 top-24 -z-10 size-48 rounded-full bg-blue-600/15 blur-2xl" />
             <div aria-hidden="true" className="pointer-events-none absolute -right-20 bottom-14 -z-10 size-48 rounded-full bg-blue-600/20 blur-2xl" />
@@ -50,7 +50,7 @@ export default function Hero({ dictionary }) {
                     </a>
                 </div>
 
-                <div className="relative min-w-0 rounded-2xl border border-border bg-[#041626]/90 p-5 sm:p-6">
+                <div className="relative min-w-0 rounded-2xl border border-border bg-surface/80 p-5 sm:p-6">
                     <div aria-hidden="true" className="pointer-events-none absolute -right-3 -top-8 -z-10 size-32 rounded-full bg-accent/15 blur-2xl" />
                     <h2 id="hero-focus-heading" className="font-sans text-sm leading-6 font-medium tracking-normal">{content.focusTitle}</h2>
                     <ul aria-labelledby="hero-focus-heading" className="mt-3 space-y-2.5">

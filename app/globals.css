@@ -2,16 +2,17 @@
 
 :root {
   color-scheme: dark;
-  --background: #0b1d35;
-  --surface: #102640;
-  --surface-raised: #16324f;
-  --foreground: #edf0fa;
-  --secondary: #b9c9df;
-  --muted: #91a5bf;
-  --accent: #20adff;
-  --accent-hover: #64c7ff;
-  --border: #254966;
-  --divider: #1a354e;
+  /* Sampled from the reference mockups: near-black navy, cards defined mostly by their borders. */
+  --background: #020c1b;
+  --surface: #051426;
+  --surface-raised: #0a1d33;
+  --foreground: #edf2fa;
+  --secondary: #b8c8db;
+  --muted: #8b9cb3;
+  --accent: #2b9fff;
+  --accent-hover: #63baff;
+  --border: #12304b;
+  --divider: #0b2238;
 
   --container-width: 72rem;
   --container-gutter: clamp(1.25rem, 4vw, 3rem);
@@ -31,7 +32,7 @@
   --color-border: var(--border);
   --color-divider: var(--divider);
   --font-sans: var(--font-geist-sans), Arial, Helvetica, sans-serif;
-  --font-serif: Georgia, "Times New Roman", serif;
+  --font-serif: var(--font-source-serif), Georgia, "Times New Roman", serif;
   --font-mono: var(--font-geist-mono), monospace;
   --spacing-section: var(--section-spacing);
   --spacing-content: var(--content-gap);
@@ -54,8 +55,9 @@
     overflow-x: clip;
     background-color: var(--background);
     background-image:
-      radial-gradient(ellipse 40rem 30rem at 100% 0%, rgb(15 100 180 / 12%), transparent 75%),
-      radial-gradient(ellipse 30rem 40rem at 0% 65%, rgb(15 85 170 / 9%), transparent 75%);
+      radial-gradient(ellipse 45rem 35rem at 100% 0%, rgb(20 110 220 / 10%), transparent 70%),
+      radial-gradient(ellipse 35rem 45rem at 0% 55%, rgb(0 70 170 / 8%), transparent 70%),
+      radial-gradient(ellipse 40rem 30rem at 100% 90%, rgb(20 110 220 / 7%), transparent 70%);
     color: var(--foreground);
     font-family: var(--font-sans);
     font-size: 1rem;
